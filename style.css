@@ -1,0 +1,186 @@
+/* body
+{
+    padding: 120px;
+    background-color:  #2E1B50;
+}
+
+.box1
+{
+    padding: 10px;  
+    border: 2px solid black; 
+    width: 1280px;
+    height: 640px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.box_navbar
+{
+    display: flex;
+    align-items: center;
+    justify-content:space-around
+}
+ */
+
+body {
+    margin: 0;
+    padding: 0;
+  
+    /* height: 100vh; */
+    background-color:  #2E1B50;
+    padding: 120px;
+    font-family: 'Jura', sans-serif;
+    /* font-family: 'Playfair Display', serif; */
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .box1 {
+    width: 1200px;
+    height: 640px; /* Adjust as needed */
+    padding: 20px;
+    border: 5px solid white;
+  }
+  
+  .box_navbar {
+    padding: 0 50px;
+    margin-top: 20px;
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-end;
+    font-size: 24px;
+    /* margin-bottom: 20px; */
+    color: white;
+  }
+  
+  .box_navbar img {
+    margin-left: 30px;
+    max-width: 35px;
+    align-items: flex-end; /* Adjust the gap between text and image */
+  }
+  
+  .box_body {
+    display: flex;
+    color: white;
+    /* flex-wrap: wrap; */
+  }
+
+  .body1 p:nth-child(1)
+  {
+    margin-top: 80px;
+    font-size: 50px;
+    /* margin-bottom: 30px; */
+  }
+
+  .body1 p:nth-child(2)
+  {
+    font-size: 150px;
+  }
+  .body1 p:nth-child(3)
+  {
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+  .body1 {
+    /* max-width: 320px; */
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+     /* Adjust the gap between text and image */
+  }
+  
+  .body2 img {
+    max-width: 700px;
+    margin-left: -50px;
+    margin-top: -50px;
+ 
+  }
+  
+  /* Add additional styles as needed */
+  h1, p, button {
+    margin: 0;
+  }
+  
+  .btn button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 280px;
+    padding: 15px 20px;
+    font-size: 26px;
+    background-color: #955AFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .key_para p:nth-child(1)
+  {
+    margin-top: 330px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #D04EFE;
+  }
+
+  .containers
+  {
+    display: flex;
+    gap: 10px;
+    margin-left: 50px;
+    width: 1000px;
+  }
+
+  .cont
+  {
+    width: 200px;
+    height: 450px;
+    border: 3px solid white;
+  }
+
+  .heading p:nth-child(1)
+  {
+    margin-top: 330px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+  }
+
+  .Products
+  {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+  }
+  .p1
+  {
+    border: 2px solid white;
+    padding: 8px;
+    display: flex;
+    max-height: 412px;
+    flex-direction: column;
+  }
+  .p1 img{
+    margin-bottom: 10px;
+  }
+  .p1 button
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px;
+    font-size: 26px;
+    background-color: #955AFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  .p2
+  {
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+  }
+  .p2 img
+  {
+    margin-top: -60px;
+  }
